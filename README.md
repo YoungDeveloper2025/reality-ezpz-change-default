@@ -8,11 +8,6 @@ This command will configure `sing-box` with `reality` security protocol over `tc
 ```
 bash <(curl -sL https://raw.githubusercontent.com/YoungDeveloper2025/reality-ezpz-change-default/master/reality-ezpz.sh)
 ```
-# With sudo
-```
-sudo bash <(curl -sL https://raw.githubusercontent.com/YoungDeveloper2025/reality-ezpz-change-default/master/reality-ezpz.sh)
-```
-
 # reality-ezpz
 Install and configure vless with reality or TLS on your linux server by executing a single command!
 
