@@ -1,3 +1,18 @@
+# Thanks from reality-ezpz
+https://github.com/aleskxyz/reality-ezpz/tree/master
+
+## Quick Start
+You can start using this script with default configuration by copy and paste the line below in terminal.
+
+This command will configure `sing-box` with `reality` security protocol over `tcp` transport protocol on port `443` for `www.google.com` SNI domain by default:
+```
+bash <(curl -sL https://raw.githubusercontent.com/YoungDeveloper2025/reality-ezpz-change-default/master/reality-ezpz.sh)
+```
+# With sudo
+```
+sudo bash <(curl -sL https://raw.githubusercontent.com/YoungDeveloper2025/reality-ezpz-change-default/master/reality-ezpz.sh)
+```
+
 # reality-ezpz
 Install and configure vless with reality or TLS on your linux server by executing a single command!
 
@@ -47,17 +62,6 @@ Supported OS:
 * CentOS 7
 * Fedora 37
 
-## Quick Start
-You can start using this script with default configuration by copy and paste the line below in terminal.
-
-This command will configure `sing-box` with `reality` security protocol over `tcp` transport protocol on port `443` for `www.google.com` SNI domain by default:
-```
-bash <(curl -sL https://raw.githubusercontent.com/YoungDeveloper2025/reality-ezpz-change-default/master/reality-ezpz.sh)
-```
-# With sudo
-```
-sudo bash <(curl -sL https://raw.githubusercontent.com/YoungDeveloper2025/reality-ezpz-change-default/master/reality-ezpz.sh)
-```
 After a while you will get configuration string and QR code:
 ![image](https://user-images.githubusercontent.com/39186039/232563871-0140e10a-22b4-4653-9bc9-cdba519a8b41.png)
 
