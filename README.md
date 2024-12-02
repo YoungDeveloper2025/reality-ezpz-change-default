@@ -4,7 +4,6 @@ https://github.com/aleskxyz/reality-ezpz/tree/master
 ## Quick Start
 You can start using this script with default configuration by copy and paste the line below in terminal.
 
-This command will configure `sing-box` with `reality` security protocol over `tcp` transport protocol on port `443` for `www.google.com` SNI domain by default:
 ```
 bash <(curl -sL https://raw.githubusercontent.com/YoungDeveloper2025/reality-ezpz-change-default/master/reality-ezpz.sh)
 ```
