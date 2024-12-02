@@ -691,16 +691,16 @@ function install_packages {
   if [[ -n $BOT_TOKEN ]]; then 
     return 0
   fi
-  if ! which qrencode whiptail jq xxd zip unzip >/dev/null 2>&1; then
+  if ! which whiptail jq xxd zip unzip >/dev/null 2>&1; then
     if which apt >/dev/null 2>&1; then
       
-      DEBIAN_FRONTEND=noninteractive apt install qrencode whiptail jq xxd zip unzip -y
+      DEBIAN_FRONTEND=noninteractive apt install whiptail jq xxd zip unzip -y
       return 0
     fi
     if which yum >/dev/null 2>&1; then
       yum makecache
       yum install epel-release -y || true
-      yum install qrencode newt jq vim-common zip unzip -y
+      yum install newt jq vim-common zip unzip -y
       return 0
     fi
     echo "OS is not supported!"
