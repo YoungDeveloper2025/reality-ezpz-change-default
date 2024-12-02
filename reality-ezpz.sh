@@ -693,7 +693,7 @@ function install_packages {
   fi
   if ! which qrencode whiptail jq xxd zip unzip >/dev/null 2>&1; then
     if which apt >/dev/null 2>&1; then
-
+      apt update
       DEBIAN_FRONTEND=noninteractive apt install qrencode whiptail jq xxd zip unzip -y
       return 0
     fi
