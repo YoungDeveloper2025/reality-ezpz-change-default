@@ -48,7 +48,7 @@ image[wgcf]="virb3/wgcf:2.2.18"
 
 defaults[transport]=grpc
 defaults[domain]=sourceforge.net
-defaults[port]=443
+defaults[port]=80
 defaults[safenet]=OFF
 defaults[warp]=OFF
 defaults[warp_license]=""
